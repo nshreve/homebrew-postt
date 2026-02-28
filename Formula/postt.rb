@@ -1,7 +1,7 @@
 class Postt < Formula
     desc "A delightful CLI for creating and publishing blogs"
-    homepage "https://github.com/noahshreve/postt"
-    url "https://github.com/noahshreve/postt/releases/download/v0.1.0/postt-dis
+    homepage "https://github.com/nshreve/postt"
+    url "https://github.com/nshreve/postt/releases/download/v0.1.0/postt-dis
   t.tar.gz"
     sha256 "PLACEHOLDER"
     version "0.1.0"
