@@ -2,7 +2,7 @@ class Postt < Formula
   desc "A delightful CLI for creating and publishing blogs"
   homepage "https://github.com/nshreve/postt"
   url "https://github.com/nshreve/postt/releases/download/v0.1.1/postt-dist.tar.gz"
-  sha256 "69232c07d5ca0a872cf1de14c487e70a917638a8c7aebd053f6a9a9c6b5dd57b"
+  sha256 "653a4a4dabbbae8038e2b4c51f74a96b17f6bff1decc4c0c1c034ec40bb76b0b"
   version "0.1.1"
   license "MIT"
 
