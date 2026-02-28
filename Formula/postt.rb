@@ -1,15 +1,16 @@
 class Postt < Formula
   desc "A delightful CLI for creating and publishing blogs"
   homepage "https://github.com/nshreve/postt"
-  url "https://github.com/nshreve/postt/releases/download/v0.1.2/postt-dist.tar.gz"
-  sha256 "7cc0d4c85a6a69bd3c3745f03709073e07986f16c5fc1005f4f76b40b4532e58"
-  version "0.1.2"
+  url "https://github.com/nshreve/postt/releases/download/v0.1.3/postt-dist.tar.gz"
+  sha256 "470a5bd8b0354948a0313bceb14285e101794b932feb28793f0bbc21162b2368"
+  version "0.1.3"
   license "MIT"
 
   depends_on "node"
 
   def install
     libexec.install "dist"
+    libexec.install "node_modules"
     (bin/"postt").write <<~EOS
       #!/bin/bash
       exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/index.js" "$@"
